@@ -9,7 +9,7 @@ namespace Module_3_Task_3_Vasylchenko
             var a = new Class1();
             var b = new Class2();
             a.ShowHelder = Show;
-            a.ShowHelder(b.Calc(a.PowDelegat, 2, 3).Invoke(2));
+            a.ShowHelder(b.Calc(a.PowHelder, 2, 3).Invoke(2));
         }
 
         public static void Show(bool b)
